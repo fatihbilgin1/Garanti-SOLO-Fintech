@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "GarantiWebApi.Controllers.DashboardController",
+    "Method": "ActionSummary",
+    "RelativePath": "api/Dashboard/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GarantiWebApi.Controllers.DashboardController",
+    "Method": "ActionTransactions",
+    "RelativePath": "api/Dashboard/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GarantiWebApi.Controllers.LinkController",
+    "Method": "ActionCreateLink",
+    "RelativePath": "api/Link/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentLink",
+        "Type": "GarantiWebApi.Models.PaymentLink",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GarantiWebApi.Controllers.LinkController",
+    "Method": "ActionListLinks",
+    "RelativePath": "api/Link/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

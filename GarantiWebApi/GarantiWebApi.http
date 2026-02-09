@@ -1,0 +1,6 @@
+@GarantiWebApi_HostAddress = http://localhost:5056
+
+GET {{GarantiWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
