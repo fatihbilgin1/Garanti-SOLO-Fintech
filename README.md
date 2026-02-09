@@ -77,12 +77,14 @@ Terminalde backend proje dizinine gidin:
 ```bash
 cd GarantiWebApi
 dotnet run
+```
 
 ### 2.Frontend'i Başlatın (React)
 ```bash
 cd garanti-solo-frontend
 npm install
 npm start
+```
 
 👨‍💻 Geliştirici Ekibi: Biltak
 Fatih - Full Stack Developer & Project Lead
