@@ -1,0 +1,65 @@
+/* Garanti BBVA Renk Paleti */
+:root {
+  --garanti-green: #26C281; /* O meşhur yeşil */
+  --garanti-dark: #222222;
+  --garanti-light: #f4f7f6;
+}
+
+body {
+  background-color: var(--garanti-light);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Kartlar */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  color: var(--garanti-dark);
+  font-weight: 700;
+}
+
+/* Butonlar */
+.btn-success {
+  background-color: var(--garanti-green);
+  border-color: var(--garanti-green);
+  font-weight: 600;
+}
+
+.btn-success:hover {
+  background-color: #1e9e68;
+}
+
+.btn-outline-primary {
+  color: var(--garanti-green);
+  border-color: var(--garanti-green);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--garanti-green);
+  color: white;
+  border-color: var(--garanti-green);
+}
+
+/* Tablo Başlıkları */
+thead tr th {
+  background-color: transparent !important;
+  color: #666;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+/* Navbar veya Başlık */
+h1, h2 {
+  color: var(--garanti-dark);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
